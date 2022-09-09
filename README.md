@@ -17,3 +17,7 @@ make
 
 - Windows: MinGW64 with MSYS2
 - Linux: Void Linux, so on most rolling release distros must be working
+
+### Additional configs
+
+You can optimize amount of input data slicers. For that, change value in src/how2thread.hpp: Config_consts::slicer_no to appropriate
